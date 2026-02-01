@@ -203,24 +203,32 @@
             <div class="col-6 col-12-medium">
               <section>
                 <!-- Nota: esto no envía nada todavía; es solo visual -->
-                <form method="post" action="#">
-                  <div class="row gtr-50">
-                    <div class="col-6 col-12-small">
-                      <input name="name" placeholder="Name" type="text" />
-                    </div>
-                    <div class="col-6 col-12-small">
-                      <input name="email" placeholder="Email" type="email" />
-                    </div>
-                    <div class="col-12">
-                      <textarea name="message" placeholder="Message"></textarea>
-                    </div>
-                    <div class="col-12">
-                      <a href="https://wa.me/521XXXXXXXXXX" class="button icon brands fa-whatsapp" target="_blank" rel="noopener">
-                        SEND MESSAGE (WhatsApp)
-                      </a>
-                    </div>
-                  </div>
-                </form>
+<form id="contactForm" method="post" action="#">
+  <div class="row gtr-50">
+    <div class="col-6 col-12-small">
+      <input name="name" placeholder="Name" type="text" required />
+    </div>
+    <div class="col-6 col-12-small">
+      <input name="email" placeholder="Email" type="email" required />
+    </div>
+    <div class="col-12">
+      <textarea name="message" placeholder="Message" required></textarea>
+    </div>
+
+    <div class="col-12">
+      <!-- Botón con el MISMO estilo -->
+      <button
+        type="submit"
+        id="btnSend"
+        class="button icon solid fa-envelope"
+      >
+        SEND MESSAGE
+      </button>
+      <!-- Mensaje de estado -->
+      <p id="status" style="margin-top: 10px;"></p> 
+    </div>
+  </div>
+</form>
               </section>
             </div>
 
@@ -275,3 +283,4 @@
 
   </body>
 </html>
+

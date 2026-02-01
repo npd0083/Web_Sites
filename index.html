@@ -189,30 +189,14 @@ Gracias por apoyar algo hecho en casa, con propósito y con sabor.</p>
 							<div class="col-6 col-12-medium">
 								<section>
 									<form id="contactForm">
-  <div class="row gtr-50">
-    <div class="col-6 col-12-small">
-      <input name="from_name" placeholder="Nombre" type="text" required />
-    </div>
+  <input type="text" name="name" placeholder="Nombre" required />
+  <input type="email" name="email" placeholder="Email" required />
+  <textarea name="message" placeholder="Mensaje" required></textarea>
 
-    <div class="col-6 col-12-small">
-      <input name="from_email" placeholder="Email" type="email" required />
-    </div>
-
-    <div class="col-12">
-      <textarea name="message" placeholder="Mensaje" rows="6" required></textarea>
-    </div>
-
-    <div class="col-12">
-      <!-- IMPORTANTE: ahora sí es un botón submit -->
-      <button type="submit" id="btnSend" class="form-button-submit button icon solid fa-envelope">
-        Enviar Mensaje
-      </button>
-      <p id="status" style="margin-top:10px;" aria-live="polite"></p>
-    </div>
-  </div>
+  <button type="submit" id="btnSend">Enviar Mensaje</button>
+  <p id="status"></p>
 </form>
-
-								</section>
+ </section>
 							</div>
 							<div class="col-6 col-12-medium">
 								<section>
@@ -274,5 +258,6 @@ Gracias por apoyar algo hecho en casa, con propósito y con sabor.</p>
 	</body>
 
 </html>
+
 
 

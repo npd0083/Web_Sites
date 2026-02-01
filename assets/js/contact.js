@@ -1,9 +1,9 @@
 // ===============================
 // CONFIGURACIÓN EMAILJS
 // ===============================
-const EMAILJS_PUBLIC_KEY = "TU_PUBLIC_KEY";
-const EMAILJS_SERVICE_ID = "TU_SERVICE_ID";
-const EMAILJS_TEMPLATE_ID = "TU_TEMPLATE_ID";
+const EMAILJS_PUBLIC_KEY = "VsVlz1O93lIlWTE68";
+const EMAILJS_SERVICE_ID = "service_ky6fnjt";
+const EMAILJS_TEMPLATE_ID = "template_3vdjwjd";
 
 emailjs.init(EMAILJS_PUBLIC_KEY);
 

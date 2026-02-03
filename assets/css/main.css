@@ -2709,3 +2709,14 @@ input, select, textarea {
 				}
 
 	}
+.logo-wrapper {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.site-logo {
+  width: 120px;      /* ⬅️ ajusta este valor */
+  height: auto;      /* mantiene proporción */
+  display: block;
+  margin: 0 auto 10px auto;
+}
